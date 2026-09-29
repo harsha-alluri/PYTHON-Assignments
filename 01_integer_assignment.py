@@ -48,11 +48,21 @@ print(f"The Cube root of {a} is: {cube_root}")
 # Question 5: Calculate the sum of digits in number 12345
 print("\nQuestion 5: Calculate the sum of digits in number 12345")
 Ans:
+a = 12345
+sum_of_digits = sum(int(digit) for digit in str(a))
+print(f"The sum of digits in {a} is: {sum_of_digits}")
 
 
 # Question 6: Check if 97 is a prime number
 print("\nQuestion 6: Check if 97 is a prime number")
-# Your code here
+Ans:
+a = 97
+is_prime = True
+for i in range(2, int(a ** 0.5) + 1):
+    if a % i == 0:
+        is_prime =false
+        break
+print(f"{a} is a prime number: {is_prime}")
 
 # Question 7: Find the factorial of 8
 print("\nQuestion 7: Find the factorial of 8")
