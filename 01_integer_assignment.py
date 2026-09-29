@@ -17,23 +17,38 @@ print("-" * 50)
 
 # Question 1: Calculate the product of first 10 natural numbers
 print("Question 1: Calculate the product of first 10 natural numbers")
-# Your code here
+Ans:
+product = 1
+for i in range(1,11):
+    product = product * i
+print(f"Product of first 10 natural numbers: {product}")
 
 # Question 2: Find the remainder when 156 is divided by 7
 print("\nQuestion 2: Find the remainder when 156 is divided by 7")
-# Your code here
+Ans:
+a = 156
+b = 7
+reaminder = a % b
+print(f"Remainder when 156 is divided by 7: {reaminder}")
 
 # Question 3: Calculate the square of 25
 print("\nQuestion 3: Calculate the square of 25")
-# Your code here
+Ans:
+a = 25
+square = a ** 2
+print(f"The Square of {a} is: {square}")
 
 # Question 4: Find the cube root of 125
 print("\nQuestion 4: Find the cube root of 125")
-# Your code here
+Ans:
+a = 125
+cube_root = a ** (1/3)
+print(f"The Cube root of {a} is: {cube_root}")
 
 # Question 5: Calculate the sum of digits in number 12345
 print("\nQuestion 5: Calculate the sum of digits in number 12345")
-# Your code here
+Ans:
+
 
 # Question 6: Check if 97 is a prime number
 print("\nQuestion 6: Check if 97 is a prime number")
