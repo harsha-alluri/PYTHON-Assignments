@@ -66,16 +66,21 @@ print(f"{a} is a prime number: {is_prime}")
 
 # Question 7: Find the factorial of 8
 print("\nQuestion 7: Find the factorial of 8")
-# Your code here
+Ans : 
+
+
 
 # Question 8: Calculate the average of numbers: 15, 23, 31, 42, 56
 print("\nQuestion 8: Calculate the average of numbers: 15, 23, 31, 42, 56")
-# Your code here
+Ans:
+
 
 # Question 9: Find the greatest common divisor (GCD) of 48 and 36
 print("\nQuestion 9: Find the greatest common divisor (GCD) of 48 and 36")
-# Your code here
+Ans:
+
 
 # Question 10: Calculate the sum of first 20 odd numbers
 print("\nQuestion 10: Calculate the sum of first 20 odd numbers")
-# Your code here 
+Ans:
+
