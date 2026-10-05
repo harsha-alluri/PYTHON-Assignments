@@ -67,13 +67,21 @@ print(f"{a} is a prime number: {is_prime}")
 # Question 7: Find the factorial of 8
 print("\nQuestion 7: Find the factorial of 8")
 Ans : 
+number = 8
 
+factorial = 1
+
+for i in range(1,9):
+    factorial *= i
+print(f"The factorial of {number} is: {factorial}")
 
 
 # Question 8: Calculate the average of numbers: 15, 23, 31, 42, 56
 print("\nQuestion 8: Calculate the average of numbers: 15, 23, 31, 42, 56")
 Ans:
-
+numbers = [15,23,31,45,94]
+average = sum(numbers)/ len(numbers)
+print(f"The average of {numbers} is: {average}")
 
 # Question 9: Find the greatest common divisor (GCD) of 48 and 36
 print("\nQuestion 9: Find the greatest common divisor (GCD) of 48 and 36")
