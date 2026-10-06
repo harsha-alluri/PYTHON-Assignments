@@ -86,9 +86,18 @@ print(f"The average of {numbers} is: {average}")
 # Question 9: Find the greatest common divisor (GCD) of 48 and 36
 print("\nQuestion 9: Find the greatest common divisor (GCD) of 48 and 36")
 Ans:
+i = 48
+
+h = 36
+
+while h != 0:
+    i, h = h, i % h
+print(f"The GCD of 48 and 36 is: {i}")
 
 
 # Question 10: Calculate the sum of first 20 odd numbers
 print("\nQuestion 10: Calculate the sum of first 20 odd numbers")
 Ans:
+sum_odd = sum(range(1, 40, 2))
+print(f"The sum of first 20 odd numbers is: {sum_odd}")
 
