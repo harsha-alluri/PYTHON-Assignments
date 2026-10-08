@@ -18,15 +18,26 @@ print("-" * 50)
 
 # Question 1: Calculate the average of 3.14, 2.718, 1.618, 0.577
 print("Question 1: Calculate the average of 3.14, 2.718, 1.618, 0.577")
-# Your code here
+# Ans:
+numbers = [3.14, 2.718, 1.618, 0.577]
+Average = sum(numbers)/len(numbers)
+print(f"The average of {numbers} is: {Average}")
 
 # Question 2: Convert 98.6 Fahrenheit to Celsius (F = C * 9/5 + 32)
 print("\nQuestion 2: Convert 98.6 Fahrenheit to Celsius")
-# Your code here
+# Ans:
+fahrenheit = 98.6
+celsius = (fahrenheit - 32) * 5/9
+print(f"{fahrenheit} Fahrenheit is equal to {celsius:.2f} Celsius")
 
 # Question 3: Calculate the compound interest on $1000 at 5.5% for 3 years
 print("\nQuestion 3: Calculate compound interest on $1000 at 5.5% for 3 years")
-# Your code here
+# Ans:
+principal = 1000
+rate = 5.5 / 100
+time = 3
+compound_interest = principal * (1 + rate) ** time - principal
+print(f"The compound interest on ${principal} at {rate*100}% for {time} years is: ${compound_interest:.2f}")
 
 # Question 4: Find the hypotenuse of a right triangle with sides 3.5 and 4.2
 print("\nQuestion 4: Find the hypotenuse of a right triangle with sides 3.5 and 4.2")
