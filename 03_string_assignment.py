@@ -92,7 +92,20 @@ for char in word:
 
 # Question 11: Find the most frequent character in "mississippi"
 print("\nQuestion 11: Find the most frequent character in 'mississippi'")
-# Your code here
+# Ans:
+word = "mississippi"
+max_count = 0
+most_frequent = ""
+
+for char in word:
+    count = word.count(char)
+
+    if count > max_count:
+        max_count = count
+        most_frequent = char
+
+print("Most frequent character:", most_frequent)
+print("Count:", max_count)
 
 # Question 12: Check if two strings are anagrams: "listen" and "silent"
 print("\nQuestion 12: Check if two strings are anagrams: 'listen' and 'silent'")
