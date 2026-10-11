@@ -18,43 +18,77 @@ print("-" * 50)
 
 # Question 1: Reverse the string "Python Programming"
 print("Question 1: Reverse the string 'Python Programming'")
-# Your code here
+# Ans:
+string = "python programming"
+reversed_str = string[::-1]
+print(f"Reversed string of '{string}' is : {reversed_str}")
 
 # Question 2: Check if "racecar" is a palindrome
 print("\nQuestion 2: Check if 'racecar' is a palindrome")
-# Your code here
+# Ans:
+word = "racecar"
+reverse_word = word[::-1]
+if word == reverse_word:
+    print(f'"{word}" is a palindrome.')
+else:
+    print(f"'{word}' is not a palindrome.")
 
 # Question 3: Count the number of words in "Python is a great programming language"
 print("\nQuestion 3: Count the number of words in 'Python is a great programming language'")
-# Your code here
+# Ans:
+words = "python is a great programming language"
+word_count = len(words.split())
+print(f"The number of words in the sentence is: {word_count}")
 
 # Question 4: Convert "hello world" to title case
 print("\nQuestion 4: Convert 'hello world' to title case")
-# Your code here
+# Ans:
+word = "hello world"
+title_case_word = word.title()
+print(f" Title case of '{word}' is: '{title_case_word}'")
 
 # Question 5: Find the length of string "Data Science"
 print("\nQuestion 5: Find the length of string 'Data Science'")
-# Your code here
+# Ans:
+string_length = len("Data Science")
+print(f" The length of the string 'Data Science' is: {string_length}")
 
 # Question 6: Replace all spaces with underscores in "Machine Learning"
 print("\nQuestion 6: Replace all spaces with underscores in 'Machine Learning'")
-# Your code here
+# Ans:
+word = "Machine Learning"
+new_word = word.replace(" ","_")
+print(new_word)
 
 # Question 7: Check if "python" is in "Python Programming Language"
 print("\nQuestion 7: Check if 'python' is in 'Python Programming Language'")
-# Your code here
+# Ans:
+word = "Python Programming Language"
+is_in_word = "python" in word.lower()
+print(f"Is 'python' in '{word}' = {is_in_word}")
 
 # Question 8: Extract the first 5 characters from "Artificial Intelligence"
 print("\nQuestion 8: Extract the first 5 characters from 'Artificial Intelligence'")
-# Your code here
+# Ans:
+word = "Artificial Intelligence"
+first_five_char = word[:5]
+print(f"The first 5 characters of '{word}' are: '{first_five_char}'")
 
 # Question 9: Convert "UPPERCASE" to lowercase
 print("\nQuestion 9: Convert 'UPPERCASE' to lowercase")
-# Your code here
+# Ans:
+word = "UPPERCASE"
+Lowercase_word = word.lower()
+print(f"The lower case version of '{word}' is : {Lowercase_word}")
 
 # Question 10: Remove all vowels from "Computer Science"
 print("\nQuestion 10: Remove all vowels from 'Computer Science'")
-# Your code here
+# Ans:
+word = "Computer Science"
+vowels = "aeiouAEIOU"
+for char in word:
+    if char not in vowels:
+        print(char, end="")
 
 # Question 11: Find the most frequent character in "mississippi"
 print("\nQuestion 11: Find the most frequent character in 'mississippi'")
