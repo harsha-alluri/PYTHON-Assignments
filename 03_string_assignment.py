@@ -109,7 +109,19 @@ print("Count:", max_count)
 
 # Question 12: Check if two strings are anagrams: "listen" and "silent"
 print("\nQuestion 12: Check if two strings are anagrams: 'listen' and 'silent'")
-# Your code here
+# Ans:
+str1 = "listen"
+str2 = "silent"
+
+if len(str1) == len(str2):
+    for char in str1:
+        if str1.count(char) != str2.count(char):
+            print("Not an Anagram")
+            break
+    else:
+        print("Anagram")
+else:
+    print("Not an Anagram")
 
 # Question 13: Capitalize first letter of each word in "python programming language"
 print("\nQuestion 13: Capitalize first letter of each word in 'python programming language'")
