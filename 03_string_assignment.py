@@ -125,7 +125,10 @@ else:
 
 # Question 13: Capitalize first letter of each word in "python programming language"
 print("\nQuestion 13: Capitalize first letter of each word in 'python programming language'")
-# Your code here
+# Ans:
+word = "python programming language"
+
+print(word.title())  
 
 # Question 14: Count consonants in "Hello World"
 print("\nQuestion 14: Count consonants in 'Hello World'")
