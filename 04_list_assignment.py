@@ -20,7 +20,13 @@ print("-" * 50)
 # Question 1: Create a list of first 10 square numbers
 print("Question 1: Create a list of first 10 square numbers")
 # Ans:
+squares = []
 
+for i in range(1, 11):
+    square = i ** 2
+    squares.append(square)
+
+print(squares)
 
 # Question 2: Find the sum of all even numbers in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print("\nQuestion 2: Find the sum of all even numbers in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]")
