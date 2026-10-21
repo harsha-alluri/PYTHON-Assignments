@@ -132,7 +132,10 @@ print(word.title())
 
 # Question 14: Count consonants in "Hello World"
 print("\nQuestion 14: Count consonants in 'Hello World'")
-# Your code here
+# Ans:
+word = "Hello World"
+
+print(len(word))
 
 # Question 15: Find the longest word in "Python is a programming language"
 print("\nQuestion 15: Find the longest word in 'Python is a programming language'")
