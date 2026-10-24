@@ -134,20 +134,38 @@ print(word.title())
 print("\nQuestion 14: Count consonants in 'Hello World'")
 # Ans:
 word = "Hello World"
+vowels = "aeiouAEIOU"
+count = 0
 
-print(len(word))
+for char in word:
+    if char.isalpha() and char not in vowels:
+        count += 1
+        
+print("Number of consonants: ",count)
 
 # Question 15: Find the longest word in "Python is a programming language"
 print("\nQuestion 15: Find the longest word in 'Python is a programming language'")
-# Your code here
+# Ans:
+word_list = "Python is a programming language".split()
+longest_word = max(word_list, key=len)
+
+print("The longest word is:", longest_word)
 
 # Question 16: Remove all punctuation from "Hello, World! How are you?"
 print("\nQuestion 16: Remove all punctuation from 'Hello, World! How are you?'")
-# Your code here
+# ans:
+word = "Hello, World! How are you?"
+punctuation = '''!()-[]{};:'",<>./?@#$%^&*_'''
+
+for char in word:
+    if char in punctuation:
+        word = word.replace(char,"")
+print(word)
 
 # Question 17: Check if string starts with "Python"
 print("\nQuestion 17: Check if string starts with 'Python'")
-# Your code here
+# ans: 
+
 
 # Question 18: Find the index of first occurrence of 'o' in "Hello World"
 print("\nQuestion 18: Find the index of first occurrence of 'o' in 'Hello World'")
